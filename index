@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autoXco - Lavandería Autoservicio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">autoXco</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ENCABEZADO PRINCIPAL -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a autoXco</h1>
+            <p>Tu lavandería de confianza en Fene</p>
+            <a href="contacto.html" class="btn">Contactar</a>
+        </div>
+    </header>
+
+    <!-- INFORMACIÓN PRINCIPAL -->
+    <section class="info">
+        <div class="container">
+            <h2>¿Quiénes somos?</h2>
+            <p>autoXco es tu lavandería de autoservicio en Fene, con máquinas modernas y servicio gestionado. 
+            Ofrecemos soluciones rápidas y de calidad para toda tu ropa.</p>
+        </div>
+    </section>
+
+    <!-- HORARIOS -->
+    <section class="horarios">
+        <div class="container">
+            <h2>Horarios</h2>
+            <div class="horario-box">
+                <p><strong>Lunes a Viernes:</strong> 7:00 - 23:00</p>
+                <p style="color: #888; font-size: 14px;">*Consulta disponibilidad en fin de semana</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS DESTACADOS -->
+    <section class="servicios-preview">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <h3>🧺 Autoservicio</h3>
+                    <p>Máquinas modernas para lavar tu ropa cuando quieras</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>⏱️ Servicio en 48h</h3>
+                    <p>Nosotros lavamos y planchamos tu ropa</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>👔 Planchado</h3>
+                    <p>Servicio de planchado profesional</p>
+                </div>
+            </div>
+            <div class="ver-mas">
+                <a href="servicios.html" class="btn">Ver más servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCALIZACIÓN -->
+    <section class="ubicacion">
+        <div class="container">
+            <h2>Encuéntranos</h2>
+            <p><strong>Dirección:</strong> Fene, 2 - Fene</p>
+            <p><strong>Teléfono:</strong> <a href="tel:981856765">981 85 67 65</a></p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 autoXco. Todos los derechos reservados.</p>
+            <p>Teléfono: 981 85 67 65</p>
+        </div>
+    </footer>
+</body>
+</html>
